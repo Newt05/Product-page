@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 60px;
+}
+
+body {
+  background-color: #c8d6e5;
+  color: ##222f3e;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Play", sans-serif;
+}
+
+#header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  margin: 18px 0px 0px 0px;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+.nav-link {
+  color: #222f3e;
+  text-decoration: none;
+  padding: 15px;
+}
+
+nav a:hover {
+  background-color: #c8d6e5;
+}
+
+.logo {
+  display: inline-block;
+  margin: 10px;
+}
+
+.quote {
+  display: flex;
+  background-color: #c8d6e5;
+  margin-top: -4px;
+  padding: 50px;
+}
+
+@media (max-width: 800px) {
+  .quote {
+    flex-wrap: wrap;
+  }
+}
+
+h2 {
+  font-family: "Handlee", cursive;
+  font-size: 18px;
+  box-shadow: 6px 9px 8px rgba(0, 0, 0, 0.6);
+  border: 3px #222f3e solid;
+  border-radius: 8px;
+  overflow: auto;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+  margin: 30px 50px 30px 50px;
+}
+
+.products {
+  background-color: #fd7272;
+  padding: 25px;
+}
+
+h3 {
+  color: #222f3e;
+  text-align: center;
+  font-size: 25px;
+  margin: 15px 0px 0px 0px;
+}
+
+.list {
+  color: #222f3e;
+  font-family: "Syne Mono", monospace;
+  display: flex;
+  font-size: 35px;
+  padding: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .list {
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+}
+
+ul li {
+  margin: 0px 50px 0px 50px;
+}
+
+.feature-grp {
+  background-color: #3d3d3d;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  text-align: center;
+  color: #f8efba;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+ol {
+  font-family: "Syne Mono", monospace;
+  font-size: 20px;
+  color: #f8efba;
+}
+
+ol li {
+  padding: 10px;
+}
+
+.lesson-vid {
+  background-color: #0be881;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.lesson-vid iframe:hover {
+  transform: scale(1.1);
+}
+
+iframe {
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: #222f3e;
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 18px;
+}
+
+#join {
+  background-color: #ffd32a;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form input {
+  display: inline-block;
+}
+
+#email {
+  background-color: #222f3e;
+  color: #f8efba;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+#submit {
+  background-color: #222f3e;
+  color: #f8efba;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.6);
+  height: 30px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  transform: scale(0.9);
+  color: #000;
+  background-color: #c8d6e5;
+}
+
+@media (max-width: 500px) {
+  .flex #submit {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+
+h6 {
+  font-size: 22px;
+}
+
+#about {
+  background-color: #fff;
+}
+
+.info h6 {
+  margin: 10px;
+  padding: 0px 10px;
+}
+
+.info p {
+  font-size: 18px;
+  margin: 10px;
+  padding: 0px 10px 0px 10px;
+}
+
+footer {
+  background-color: #ffeaa7;
+}
+
+footer h5 {
+  font-size: 19px;
+}
+
+footer i {
+  font-size: 15px;
+}
